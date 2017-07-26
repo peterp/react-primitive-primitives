@@ -1,0 +1,12 @@
+{
+  "name": "react-primitives-native",
+  "version": "0.0.1",
+  "description": "",
+  "files: ["index.js"]
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-native": "^0.46.4"
+  }
+}
