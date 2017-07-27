@@ -1,3 +1,5 @@
-export default {
+const Platform = {
   OS: "web"
 };
+
+export default Platform;

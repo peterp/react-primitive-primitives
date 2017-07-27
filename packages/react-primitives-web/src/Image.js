@@ -1,3 +1,5 @@
 import React from "react";
+import { flattenStyle } from "./helpers";
 
-export default ({ source, ...props }) => <img src={source} {...props} />;
+export default ({ source, style, ...props }) =>
+  <img src={source} style={flattenStyle(style)} {...props} />;

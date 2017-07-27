@@ -1,7 +1,5 @@
-import Text from "./Text";
-import View from "./View";
-import Image from "./Image";
-import Touchable from "./Touchable";
-import Platform from "./Platform";
-
-export default { Text, View, Image, Touchable, Platform };
+export { default as Text } from "./Text";
+export { default as View } from "./View";
+export { default as Image } from "./Image";
+export { default as Touchable } from "./Touchable";
+export { default as Platform } from "./Platform";
