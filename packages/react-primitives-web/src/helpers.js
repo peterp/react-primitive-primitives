@@ -4,7 +4,7 @@ export const flattenStyle = (style, defaultStyle = {}) => {
     : style;
 
   return {
-    ...flatStyle,
-    ...defaultStyle
+    ...defaultStyle,
+    ...flatStyle
   };
 };
