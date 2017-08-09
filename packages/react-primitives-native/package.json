@@ -3,7 +3,8 @@
   "version": "0.2.1",
   "description": "",
   "files": [
-    "index.js"
+    "index.js",
+    "View.js"
   ],
   "main": "index.js",
   "author": "",
