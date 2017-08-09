@@ -2,14 +2,12 @@
   "name": "react-primitives-web",
   "version": "0.1.1",
   "description": "",
-  "files": [
-    "index.js",
-    "dist/"
-  ],
+  "files": ["index.js", "dist/"],
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && babel -d dist src",
-    "build:watch": "npm run build -- --watch"
+    "build:watch": "npm run build -- --watch",
+    "prepublish": "npm run build"
   },
   "license": "ISC",
   "devDependencies": {
