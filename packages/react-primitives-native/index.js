@@ -1,5 +1,5 @@
 var RN = require("react-native");
-var View = require("./View");
+var View = require("./View.js");
 
 module.exports = {
   Touchable: RN.TouchableOpacity,
