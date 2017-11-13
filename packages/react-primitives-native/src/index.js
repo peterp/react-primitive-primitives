@@ -1,4 +1,6 @@
 import RN from "react-native";
+import Gradient from "react-native-linear-gradient";
+
 import View from "./View";
 
 module.exports = {
@@ -6,5 +8,6 @@ module.exports = {
   View,
   Text: RN.Text,
   Image: RN.Image,
-  Platform: RN.Platform
+  Platform: RN.Platform,
+  Gradient
 };
