@@ -1,11 +1,8 @@
 {
   "name": "react-primitives-web",
-  "version": "0.2.6",
+  "version": "0.3.0",
   "description": "",
-  "files": [
-    "index.js",
-    "dist/"
-  ],
+  "files": ["index.js", "dist/"],
   "main": "index.js",
   "scripts": {
     "build": "rm -rf dist && babel -d dist src",
