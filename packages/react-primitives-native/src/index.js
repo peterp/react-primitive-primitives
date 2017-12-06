@@ -13,7 +13,7 @@ import View from "./View";
 module.exports = {
   TouchableOpacity,
   TouchableHighlight,
-  Touchable,
+  Touchable: TouchableWithoutFeedback,
   Text,
   Image,
   Platform,
