@@ -1,13 +1,22 @@
-import RN from "react-native";
-import GradientView from "react-native-linear-gradient";
+import {
+  TouchableOpacity,
+  TouchableHighlight,
+  TouchableWithoutFeedback,
+  Text,
+  Image,
+  Platform
+} from "react-native";
 
+import GradientView from "react-native-linear-gradient";
 import View from "./View";
 
 module.exports = {
-  Touchable: RN.TouchableOpacity,
-  View,
-  Text: RN.Text,
-  Image: RN.Image,
-  Platform: RN.Platform,
-  GradientView
+  TouchableOpacity,
+  TouchableHighlight,
+  Touchable,
+  Text,
+  Image,
+  Platform,
+  GradientView,
+  View
 };
