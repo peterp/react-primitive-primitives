@@ -1,4 +1,5 @@
 import { ART, Dimensions } from "react-native";
+import PropTypes from "prop-types";
 
 const GradientView = ({ colors, locations, start, end, ...others }) => {
   const { height, width } = Dimensions.get("window");
