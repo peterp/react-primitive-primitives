@@ -7,8 +7,8 @@ import {
   Platform
 } from "react-native";
 
-import GradientView from "react-native-linear-gradient";
 import View from "./View";
+import GradientView from "./GradientView";
 
 module.exports = {
   TouchableOpacity,

@@ -1,6 +1,6 @@
 {
   "name": "react-primitives-native",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "",
   "files": ["index.js", "dist/"],
   "scripts": {
